@@ -1,0 +1,19 @@
+we can create array with 2 type:
+
+
+1.> int arr[]=new int[size];
+    Here Size is mandetory
+    
+ 2.> int arr[]={1,2,3,4,5}
+ direct assign the value.....
+ 
+ 
+ Array Programs :---
+ ==========================
+ 1. EvenIndex_inArray 
+ 2. OddIndex_inArray 
+ 3. Even_Element/Odd_Element
+ 4. Avarage of array
+ 5. Avarage of OddIndex
+ 6. Avarage Of EvenIndex
+ 7. lenear Search:----Searching Element in the 0 INdex

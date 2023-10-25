@@ -1,0 +1,220 @@
+ Tokens :
+ 1> keywords 
+ 2> identifiers 
+ 3> data/values / literals 
+ 
+ 
+ 
+ 
+ Keyword :--- Pre-defined words which are understandable by compilers.
+ 				specific meaning.
+ 				meanings of the keyword can not be change.
+ 				in java 53 keywords are available.
+ 				All keywords written in lower case.
+ 				
+ 				
+ 2> Identifiers :--  The names given to the components of java  by the Programmers.
+ 							<package name>
+ 							< class name >
+ 							< variables >
+ 							  < methods  >
+ 							  
+ 							  
+ 							  
+ 							  
+ 		<a>Rules (Mandatory)
+ 		<b> Conventions 
+ 		
+ 		
+ <a>  Rules :  Identifiers should not start with Number.
+ 				keyword not use as Identifiers.
+ 				Special character ($ ,_) only Allowed.
+ 				Space is not allowed .
+ 				
+ 				
+ <b>  Conventions :- class & Interface name must be first Letter in Upper case(single word)
+ 					 < Multiple > every words first character has to be in Upper Case .
+ 					 
+ 					 2>	Method Name :- <single Word> whole word in lower case.
+ 					 					< Multiple Word > first word in lower case and 
+ 					 					after that  first character of each  and 
+ 					 					 every word in Upper case.
+ 					  
+ 					  3> Variable name:-- Single word lower case.
+ 					  						Multiple word lower case. 
+ 		
+ 		Variable :--
+ 						Static Variable :- Class block
+ 											prefix Static
+ 											Static Data type Variable name.
+ 											
+ 											
+ 						NonStatic Variable:-  classBlock
+ 												not prefixed static
+ 												data type variable name;
+ 		
+ 		
+ 		
+ 		
+ 						local Variable :--with in the method block or any other block expect Class block.
+ 											a> has to be initialize.
+ 											b> not to be initialize with Default Values.
+ 											c> Local variable local in nature :-nested with a block.		
+ 
+ 
+ 3> Data/ values / Literals :---- Row Fact or Information .
+ 			1>Primitive Data/ values -Single Values Data 
+ 			
+ 			there are 8 type of data type 
+ 			     boolean --- true/false
+ 			     char---- in single Quotas inside numeric type because of ASCII Values.
+ 			     byte----- minimum amount of data it Store.
+ 			     short
+ 			     int 
+ 			     long----maximum amount of data it Store.
+ 			     float--- after point it store 3digits .999f :
+ 			     double---after point it store 5digits .99999d
+ 			
+ 			2>Non-Primitive Data/ values--MultiValues data.
+ 					Array
+ 					ClassName
+ 					Object reference
+ 					String
+
+
+Type Casting:-- Converting one type of data into another type of data.
+					
+					a> Primitive type Casting
+					
+					byte < short < int < long < float < long
+					
+					1> Widening
+								
+							converting primitive data lower type to higher type.
+							  no data loss.
+							  compiler done Automatic(implicitly).
+					2> narrowing
+							converting primitive data higher to lower range.
+							  data loss
+							  not done automatically.
+							  by using type case Operators.
+							  	a>operators.
+							  	b>type casting.
+					b> non-primitive type casting 
+ 							1>UpCasting
+ 							2>DownCasting
+ Operands:---- input Given by User.
+ 
+ Operators :--- predefine Symbols to perform some specific Operations over the Operands.
+ 				 
+ 				a> operators divided on based on number of Operands Use.
+ 						
+ 						unary--1input
+ 						binary -- 2inputs(minimum) 
+ 									or 2 Operands(+,-,/,*)
+ 						ternary---3inputs
+ 
+ 				b> based on operation Performed.
+ 					there are 9 types of operators.
+ 					a>Arithmetical
+ 					b>logical
+ 					c>relational
+ 					d>bitwise
+ 					e>conditional--- operands ? operand 2: operands 3;
+ 										condition ?  true :  false ;
+ 					f>increment/decrement-- Pre-increment / decrement || post Increment / decrement.
+ 											++a,  --a							a++ 		/   a++
+ 					g>misculinious---Type cast || instance
+ 					h>comparator
+ 					i>assignment 
+ 			
+ 				
+ methods :----- set/block of instructions for use some specific task is called methods.	
+ 				methods are basically class member so it's Declare in side class block.
+ 				we can create n numbers of methods.
+ 				only execute when call inside the main methods .
+ 				
+ 				Syntax__-------
+ 								[]---optional
+ 				 [access modifier][modifier] return type name([formal argument])  
+ 				 {
+ 				 
+ 				    -----------
+ 				    -----
+ 				    ----------
+ 				    statement
+ 				 }
+ 				 
+ 			method name(formal argument)---method signature.
+ 			entire syntax _----- method declaration.
+ 			entire syntax with body_--- method definition / method implementation.
+ 			
+ 			public static void main(String [] args);
+ 			
+ 			
+ 			modifier:--modify the character sticks of class members.
+ 			  			
+ 			  			static , abstract etc;
+ 			  
+ 			 Access modifier:--- change the accessibility of the class member.
+ 			 					 ex:---public , private , default protected ;
+ 			 					 
+ 			 					 
+ 			 					 public :--accessibility everywhere any class or package.
+ 			 					 
+ 			 					 private :---restriction regarding to accessibility . access within the class .
+ 			 					 
+ 			 					 default :---- same as public but not access out side the package.
+ 			 					 
+ 			 					 protected :--- completely restricted.
+ 				 
+ 			Return type__:---- which type of data return by the method.
+ 								
+ 								primitive :--- byte , short , int ,long , float , double , char , boolean;
+ 								non-primitive :-- String
+ 								void:--- method not return anything just printing data .
+ 												(That time we not need to return.)
+ 				
+ 				note :--- return(keyword__):--- we use it  for return the value to the method call statement.
+ 									
+ 				method name:-- name given to the method.(follows by the conventions ) .
+ 			
+ 			Formal Arguments:-- n number of formal arguments.
+ 								it's not mandatory
+ 								data type variable name -->(variable declaration);
+ 
+ 
+ Types of methods :---
+ 							no-arguments methods 
+ 											The methods never accept formal arguments is called no arguments methods.
+ 													syntax :---[access modifier] [modifier] return type name()
+ 													{
+ 													
+ 													}
+ 													
+ 												we can call it by using method call statement.
+ 												method name();
+ 												method name [actual argument]
+ 														 actual arguments:--values 
+ 											
+ 										Binding:---	the process of association between method signature or method call statement.
+ 							parameterize methods :----method accepts formal argument is called parameterize method
+ 							Syntax:----
+ 							
+ 							[access modifier][modifier] return type name(formal argument )
+ 							{
+ 							
+ 							}
+									method name(actual argument) 
+									
+									Rules:---->
+												a>number of formal arguments equals to actual arguments.
+												b>the type of formal argument same as actual arguments.							
+ 
+ 
+ 
+decession  making statement/control statements / conditional statements :----
+ 
+ 
+ 
+ 
